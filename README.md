@@ -32,3 +32,13 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+## Merge Template Updates
+
+```shell
+git remote add template git@github.com:AstroNvim/template.git
+
+git fetch --all
+
+git merge template/main --allow-unrelated-histories
+```
