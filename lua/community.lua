@@ -19,7 +19,7 @@ return {
   { import = "astrocommunity.editing-support.yanky-nvim" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   -- Utility
-  { import = "astrocommunity.project.nvim-spectre" },
+  { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.editing-support.comment-box-nvim" },
   { import = "astrocommunity.editing-support.nvim-regexplainer" },
   { import = "astrocommunity.editing-support.refactoring-nvim" },
